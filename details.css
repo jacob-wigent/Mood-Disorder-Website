@@ -1,0 +1,40 @@
+
+header div.text{
+    width: 75%;
+    margin: 86px auto;
+}
+
+header div.text h2 {
+    width: 50%;
+}
+
+nav {
+    width: 100%;
+    background-color: #39789B;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(0px 8px 30px rgba(0, 0, 0, 0.29));
+}
+
+nav ul {
+    width: calc((100% / 6) * 4);
+    margin: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 14px;
+    width: calc(100% / 3);
+    background-color: #39789B;
+    text-align: center;
+    vertical-align: center;
+    color: #fff;
+}
+
+nav ul li:hover {
+    background-color: #356682;
+}
+
+a {
+    color: #ee8663;
+}

@@ -1,0 +1,99 @@
+.hero-text {
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+    margin-left: 12.5%;
+    width: 50%;
+}
+
+.hero {
+    background-image: url(hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+
+.hero header .logo {
+    height: 65px;
+}
+
+.hero header {
+    height: 134px;
+    width: 75%;
+    margin: auto;
+    /*border: 1px black dashed;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text hr {
+    width: 80px;
+    height: 4px;
+    border: none;
+    background-color: #43507D;
+}
+
+.button.get-help {
+    background-color: #F16B40;
+}
+
+.button.get-help:hover {
+    background-color: #e07450;
+}
+
+.button.get-help:active {
+    background-color: #e7b4a3;
+}
+
+.button.learn-more {
+    background-color: #D6D6D6;
+    color: #000;
+    margin-top: 30px;
+}
+
+.button.learn-more:hover {
+    background-color: #b3b3b3;
+}
+
+.button.learn-more:active {
+    background-color: #7e7e7e;
+}
+
+.mood-disorders .cards {
+    max-width: 90%;
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mood-disorders .card {
+    width: 22vw;
+    min-width: 255px;
+    height: 22.5vw;
+    min-height: 260px;
+    background-color: #2D2C37;
+    margin: 15px;
+    padding: 34px 40px;
+    box-shadow: 0px 10px 46px 9px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.mood-disorders a {
+    text-decoration: none;
+}
+
+.mood-disorders .card:hover {
+    background-color: #356682;
+    transform: translateY(-10px);
+}
+
+.mood-disorders hr {
+    width: 100px;
+    height: 4px;
+    border: none;
+    background-color: #43507D;
+    margin: auto;
+}

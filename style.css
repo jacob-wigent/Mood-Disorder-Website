@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Tiro Devanagari Hindi';
+    src: url(TiroDevanagariHindi-Regular.ttf);
+  }
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url(AmaticSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1D1D21;
+}
+
+h1 {
+    font-family: 'Tiro Devanagari Hindi', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 86px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Tiro Devanagari Hindi', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 58px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Tiro Devanagari Hindi', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+}
+
+h4 {
+    font-family: 'Tiro Devanagari Hindi', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #fff;
+}
+
+h5 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    color: #BEBEBE;
+}
+
+p,li {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+a.clear {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 44px;
+    color: #fff;
+    text-align: center;
+    border-radius: 32px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+.hotline {
+    height: 18vh;
+    background-color: #F16B40;
+}
+
+.hotline-content {
+    width: 960px;
+    max-width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.hotline-content p {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 36px;
+}
+
+.hotline-content p a{
+    color: #fff;
+}
+
+.hotline-content p a.phone{
+    color: #43507D;
+}
+
+.hotline-content img {
+    height: 60%;
+}
+
+
+.group {
+    max-width: 75%;
+    width: 1200px; /*idk about this*/
+    margin: 81px auto;
+}
+
+.highlight {
+    background-color: #356682;
+    padding: 54px 12.5%;
+}
+
+.group.double
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group.double div {
+    flex: 2;
+}
+
+.group.double aside {
+    flex: 1;
+    background-color: #43507D;
+    padding: 30px 40px;
+    justify-self: center;
+    margin: 20px 0px 20px 40px;
+    border-radius: 10px;
+}
+
+.group h2,h3{
+    margin-bottom: 12px;
+}
+
+.group ul {
+    margin: 20px 20px;
+}
+
+.group span {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.group blockquote {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: italic;
+    margin: 30px 10px;
+}
+
+.anchor-point {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+    margin-top: -96px;
+}
+
+.anchor-point.first {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #000;
+    padding: 50px;
+}
+
+footer div.text {
+    width: 75%;
+    margin: auto;
+}
+
+footer h5 {
+    text-align: center;
+    margin-bottom: 40px;
+}
